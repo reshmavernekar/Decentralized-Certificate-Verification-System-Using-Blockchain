@@ -1,0 +1,33 @@
+contract.certificates("3")
+await contract.issueCertificate("3", "John Doe", "Blockchain Basics", "OpenAI Academy");
+clear
+console.log(await contract.getAllCertificates()); // Replace with your function if different
+await contract.issueCertificate("3", "John Doe", "Blockchain 101", "ABC Academy");
+await contract.issueCertificate("3", "John Doe", "Blockchain Basics", "OpenAI Academy");console.log(await contract.verifyCertificate("3"));
+await contract.issueCertificate("3", "John Doe", "Blockchain Basics", "OpenAI Academy");
+await contract.issueCertificate("3", "John Doe", "Blockchain Basics", "OpenAI Academy");console.log(await contract.verifyCertificate("3"));
+const Certificate = await ethers.getContractFactory("Certificate");const contract = await Certificate.attach("0x5fbdb2315678afecb367f032d93f642f64180aa3");console.log(await contract.certificates("2")); 
+const certificate = await contract.certificates("3");console.log(certificate);
+const Contract = await ethers.getContractFactory("Certificate");const contract = await Contract.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");  // Use your deployed contract address
+await contract.issueCertificate("3", "John Doe", "Blockchain 101", "ABC Academy");
+const certificate = await contract.certificates("3");console.log(certificate);
+console.log("Contract functions:", contract.interface.functions);
+const contract = await getBlockchain();console.log("Contract Instance:", contract);
+console.log(await contract.getAllCertificates()); // Replace with your function if different
+console.log(contract.address);
+console.log(await contract.verifyCertificate("3"));
+console.log(await contract.verifyCertificate("yourCertificateID"));
+const { ethers } = require("hardhat");const contractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";const code = await ethers.provider.getCode(contractAddress);console.log(code);
+let Contract = await ethers.getContractAt("Certificate", "0x5fbdb2315678afecb367f032d93f642f64180aa3");
+let contract = await ethers.getContractAt("Certificate", "0x5fbdb2315678afecb367f032d93f642f64180aa3");
+const certificateContract = await ethers.getContractAt("Certificate", "0x5fbdb2315678afecb367f032d93f642f64180aa3");
+const contract = await ethers.getContractAt("Certificate", "0x5fbdb2315678afecb367f032d93f642f64180aa3");
+const Certificate = await ethers.getContractFactory("Certificate");const contract = await Certificate.attach("0x5fbdb2315678afecb367f032d93f642f64180aa3");console.log("Contract Address:", contract.address);
+const Certificate = await ethers.getContractFactory("Certificate");const contract = await Certificate.attach("0xYourDeployedContractAddress");console.log("Contract Address:", contract.address);
+console
+te.attach("0xYourDeployedContractAddress");
+const Certificate = await ethers.getContractFactorconst contract = await Certifica
+console
+te.attach("0xYourDeployedContractAddress");
+const Certificate = await ethers.getContractFactorconst contract = await Certifica
+const Certificate = await ethers.getContractFactory
